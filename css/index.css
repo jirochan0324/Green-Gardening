@@ -295,10 +295,10 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  min-width: 390px;
-  height: 100vh;
 }
 #wrap .content {
+  min-width: 390px;
+  height: 100vh;
   position: relative;
   display: flex;
   flex-direction: column;
