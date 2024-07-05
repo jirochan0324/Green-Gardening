@@ -1,0 +1,27 @@
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bodymovin/5.7.5/lottie.min.js"></script>
+    <link rel="stylesheet" href="css/sign-up.css">
+    <title>利用IDの登録</title>
+</head>
+<body>
+    <div id="wrap">
+        <div id="content">
+            <h2>利用IDの登録</h2>
+            <p class="supple">配布されたIDを入力してください</p>
+            <div class="input-id">
+                <input type="text" id="id-input" class="id-input" value="" required minlength="8" maxlength="8"/>
+                <p id="caution">有効なIDを入力してください。</p>
+            </div>
+            <button id="button">次へ進む</button>
+        </div>
+        <div id="success-container">
+            <div id="lottie"></div>
+        </div>
+    </div>
+
+    <script src="js/sign-up.js"></script>
+</body>
+</html>
