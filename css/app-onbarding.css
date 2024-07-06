@@ -296,22 +296,26 @@ body {
   flex-direction: column;
   align-items: center;
   position: relative;
+  height: 100%;
 }
 #wrap .content {
   min-width: 390px;
-  height: 100vh;
+  height: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
+  position: relative;
 }
 #wrap .content h2 {
-  transform: translateY(95px);
+  position: absolute;
+  transform: translateY(32px);
   font-size: 1.4rem;
   font-weight: 600;
   letter-spacing: 0.05rem;
 }
 #wrap .content .category-wrap {
-  transform: translateY(148px);
+  position: absolute;
+  transform: translateY(80px);
   display: grid;
   grid-template-columns: repeat(2, 140px);
   row-gap: 48px;
