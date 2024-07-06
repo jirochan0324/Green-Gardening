@@ -354,13 +354,13 @@ body {
   position: relative;
   display: none;
 }
-#wrap #success-container #lottie {
+#wrap #success-container .lottie {
+  width: 210px;
+  height: 210px;
   position: absolute;
   top: 0;
   right: 0;
   bottom: 0;
   left: 0;
   margin: auto;
-  width: 210px;
-  height: 210px;
 }/*# sourceMappingURL=sign-up.css.map */
