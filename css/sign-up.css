@@ -358,9 +358,8 @@ body {
   width: 210px;
   height: 210px;
   position: absolute;
-  top: 0;
+  transform: translateY(160px);
   right: 0;
-  bottom: 0;
   left: 0;
-  margin: auto;
+  margin: 0 auto;
 }/*# sourceMappingURL=sign-up.css.map */
