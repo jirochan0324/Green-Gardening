@@ -6,23 +6,23 @@ document.getElementById('id-input').addEventListener('input', function() {
     const container = document.getElementById('lottie-container');
 
 
-    if (value === "") {
-        caution.style.opacity = 0;
+if (value === "") {
+    caution.style.opacity = 0;
     } else if (/^\d{8}$/.test(value)) {
         submitButton.style.backgroundColor = '2E6530';
         submitButton.style.color = 'white';
         submitButton.disabled = false;
         caution.style.opacity = '0';
         submitButton.addEventListener('click',function(){
-            // window.location.href = './app-onboarding.html';
-            var animation=bodymovin.loadAnimation({
-                container: document.getElementById('Lottie'),
-                renderer: 'svg', // 描画形式
-                loop: false, // trueにしたらループ。1回再生の場合はfalse
-                autoplay: false, // 自動再生
-                path: 'success.json' // jsonのパスを指定
+            document.getElementById('success-container').style.display="block";
+            lottie.loadAnimation({
+                container: document.querySelector('.lottie'),//アニメーションを表示させたい要素
+                renderer: 'svg',//レンダリング形式(svg / html / canvasを指定)
+                loop: false,//アニメーションのループをさせるか（true / false / 数値を指定）
+                autoplay: false,//アニメーションの自動再生をさせるか（true / falseを指定）
+                path: './success.json'//アニメーションのjsonファイルのパス
             });
-        });
+        })
     } else {
         submitButton.disabled = true;
         caution.style.opacity = '1';
@@ -30,6 +30,5 @@ document.getElementById('id-input').addEventListener('input', function() {
         submitButton.style.color = '2E6530';
     }
 });
-
 
 
