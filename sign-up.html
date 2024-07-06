@@ -2,7 +2,6 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/bodymovin/5.7.5/lottie.min.js"></script>
     <link rel="stylesheet" href="css/sign-up.css">
     <title>利用IDの登録</title>
 </head>
@@ -18,10 +17,13 @@
             <button id="button">次へ進む</button>
         </div>
         <div id="success-container">
-            <div id="lottie"></div>
+            <dotlottie-player src="https://lottie.host/9df208d6-aa41-4d49-bda5-a694a898a4c3/PVy2eg7u9U.json" class="lottie" background="transparent" speed="1" style="width: 210px; height: 210;" loop="false" autoplay="true"></dotlottie-player>
         </div>
     </div>
 
+    <script type="module"src="https://cdnjs.cloudflare.com/ajax/libs/bodymovin/5.12.2/lottie.min.js"></script>
+    <script src="https://unpkg.com/@dotlottie/player-component@latest/dist/dotlottie-player.mjs" type="module"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bodymovin/5.7.5/lottie.min.js"></script>
     <script src="js/sign-up.js"></script>
 </body>
 </html>
