@@ -120,17 +120,17 @@ input {
   border-radius: 0;
 }
 
-[type=number]::-webkit-inner-spin-button,
-[type=number]::-webkit-outer-spin-button {
+[type="number"]::-webkit-inner-spin-button,
+[type="number"]::-webkit-outer-spin-button {
   height: auto; /* Correct the cursor style of increment and decrement buttons in Chrome */
 }
 
-[type=search] {
+[type="search"] {
   -webkit-appearance: textfield; /* Correct the odd appearance in Chrome and Safari */
   outline-offset: -2px; /* Correct the outline style in Safari */
 }
 
-[type=search]::-webkit-search-decoration {
+[type="search"]::-webkit-search-decoration {
   -webkit-appearance: none; /* Remove the inner padding in Chrome and Safari on macOS */
 }
 
@@ -162,34 +162,34 @@ select {
 
 /* Apply cursor pointer to button elements */
 button,
-[type=button],
-[type=reset],
-[type=submit],
-[role=button] {
+[type="button"],
+[type="reset"],
+[type="submit"],
+[role="button"] {
   cursor: pointer;
 }
 
 /* Remove inner padding and border in Firefox 4+ */
 button::-moz-focus-inner,
-[type=button]::-moz-focus-inner,
-[type=reset]::-moz-focus-inner,
-[type=submit]::-moz-focus-inner {
+[type="button"]::-moz-focus-inner,
+[type="reset"]::-moz-focus-inner,
+[type="submit"]::-moz-focus-inner {
   border-style: none;
   padding: 0;
 }
 
 /* Replace focus style removed in the border reset above */
 button:-moz-focusring,
-[type=button]::-moz-focus-inner,
-[type=reset]::-moz-focus-inner,
-[type=submit]::-moz-focus-inner {
+[type="button"]::-moz-focus-inner,
+[type="reset"]::-moz-focus-inner,
+[type="submit"]::-moz-focus-inner {
   outline: 1px dotted ButtonText;
 }
 
 button,
-html [type=button],
-[type=reset],
-[type=submit] {
+html [type="button"],
+[type="reset"],
+[type="submit"] {
   -webkit-appearance: button; /* Correct the inability to style clickable types in iOS */
 }
 
@@ -261,7 +261,7 @@ progress {
    # Accessibility
    # ================================================================= */
 /* Specify the progress cursor of updating elements */
-[aria-busy=true] {
+[aria-busy="true"] {
   cursor: progress;
 }
 
@@ -271,7 +271,7 @@ progress {
 }
 
 /* Specify the unstyled cursor of disabled, not-editable, or otherwise inoperable elements */
-[aria-disabled=true] {
+[aria-disabled="true"] {
   cursor: default;
 }
 
@@ -279,16 +279,18 @@ html {
   font-size: 62.5%;
 }
 
-html, body {
+html,
+body {
   height: 100%;
 }
 
 body {
-  font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", "Segoe UI", "Hiragino Kaku Gothic ProN", Meiryo, sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", "Segoe UI",
+    "Hiragino Kaku Gothic ProN", Meiryo, sans-serif;
 }
 
 body {
-  background-color: #F4F1EE;
+  background-color: #f4f1ee;
 }
 
 #wrap {
@@ -359,7 +361,7 @@ body {
   position: relative;
   width: 300px;
   height: 480px;
-  border: solid 6px #2E6530;
+  border: solid 6px #2e6530;
   border-radius: 10px;
   padding: 12px 12px 8px;
   background-color: white;
@@ -387,7 +389,7 @@ body {
 #wrap .model-wrap .model-content .model .area .model-item h3 {
   margin: 0px 0px 8px;
   font-size: 1.2rem;
-  color: #2E6530;
+  color: #2e6530;
   font-weight: 600;
 }
 #wrap .model-wrap .model-content .model .area .model-item .model-text {
@@ -406,7 +408,7 @@ body {
   width: 100px;
   height: 40px;
   border-radius: 10px;
-  background-color: #2E6530;
+  background-color: #2e6530;
   color: white;
   font-size: 1.2rem;
   font-weight: 400;
@@ -417,7 +419,7 @@ body {
   display: block;
   width: 42px;
   height: 42px;
-  background-color: #2E6530;
+  background-color: #2e6530;
   border-radius: 9999px;
   padding: 9px;
   top: -16px;
@@ -427,4 +429,4 @@ body {
 }
 #wrap .model-wrap .model-content #close {
   color: white;
-}/*# sourceMappingURL=app-onbarding.css.map */
+} /*# sourceMappingURL=app-onbarding.css.map */
